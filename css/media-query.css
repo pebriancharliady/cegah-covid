@@ -1,0 +1,84 @@
+@media screen and (max-width:280px) {
+    header {
+        padding-bottom: 7rem;
+        padding-top: 24rem;
+    }
+
+    header h1 {
+        font-size: 2.5rem;
+    }
+
+    header .covid-white {
+        position: absolute;
+        left: 7rem;
+        bottom: 12rem;
+        width: 12rem;
+    }
+
+    header .covid-black {
+        position: absolute;
+        left: 3rem;
+        bottom: 22rem;
+        width: 6rem;
+    }
+
+    #whats-covid img{
+        width: 10rem;
+        animation: animrotate 10s infinite linear;
+    
+    }
+}
+
+@media screen and (max-width:767px) {
+    header {
+        padding-bottom: 7rem;
+        padding-top: 24rem;
+    }
+
+    header h1 {
+        font-size: 2.5rem;
+    }
+
+    header .covid-white {
+        position: absolute;
+        left: 7rem;
+        bottom: 15rem;
+        width: 12rem;
+    }
+
+    header .covid-black {
+        position: absolute;
+        left: 3rem;
+        bottom: 27rem;
+        width: 5rem;
+    }
+
+    #whats-covid img{
+        width: 16rem;
+    
+    }
+}
+
+@media (min-width:767px) and (max-width:1024px) {
+    header {
+        padding: 24rem 0;
+    }
+
+    header h1 {
+        font-size: 2.5rem;
+    }
+
+    header .covid-white {
+        position: absolute;
+        left: 0rem;
+        bottom: -3rem;
+        width: 15rem;
+    }
+
+    header .covid-black {
+        position: absolute;
+        left: 14rem;
+        bottom: 13rem;
+        width: 6rem;
+    }
+}
